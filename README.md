@@ -10,3 +10,5 @@ java -jar -Dspring.profiles.active=pdn  build/libs/platzi-market-1.0.jar
 - $>heroku create platzimarketversion1
 - $>heroku addons:create heroku-postgresql
 - $>heroku config: //usuario:contraseña@localhost:puerto/nombrebasedatos
+- $>git push heroku main
+- $>heroku open
